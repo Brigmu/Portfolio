@@ -1,0 +1,48 @@
+#myTitle {
+    font-size: 24px;
+    font-size: Bold;
+    /* background-color: blue; */
+    /* color: white; */
+    /* width: 15%;
+    min-width: 100px; */
+    text-align: center;
+    /* margin-left: 10px; */
+    margin-bottom: 10px;
+}
+
+#myPhoto {
+    width: 100%;
+    max-width: 150px;
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 150px;
+    margin: 5px 20px 0px 10px;
+    float: left;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+#Github {
+    float: left;
+    margin-right: 10px;
+}
+
+#linkedin {
+    float: left;
+    margin-right: 10px;
+    width: 64px;
+    height: 32px;
+}
+
+.social {
+    height: 32px;
+    margin: 15px 0px;
+    padding: 15px 0px;
+}
+
+.social-text {
+    padding-bottom: 7.5px;
+}
+

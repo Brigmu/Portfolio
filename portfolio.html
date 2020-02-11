@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+
+    <style>
+        body{
+            background-image: url(images/checkerboard-cross.png)
+        }
+    </style>
+
+    <!-- Local styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Material Design CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    
+    <!-- Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Alice|Quicksand|Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+        <div class="mdc-top-app-bar-row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <!-- <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button tooltip"> -->
+                    <!-- <menu class = "material-icons mdc-top-app-bar__navigation-icon mdc-icon-button" type="toolbar">
+                        menu
+                    </menu> -->
+                    <!-- <span class="tooltiptext">Return to Home</span> -->
+                <!-- </button> -->
+                <span class="mdc-top-app-bar__title">My Portfolio</span>
+               
+
+            </section>
+            <!-- <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                <button class='material-icons mdc-top-app-bar__navigation-icon mdc-icon-button tooltip'>
+                    home
+                </button>
+            </section> -->
+
+        </div>
+
+    </header>
+
+    <main class="mdc-elevation--z6 mdc-layout-grid mdc-top-app-bar--fixed-adjust">
+        <div class="mdc-elevation--10" id="myTitle">Deployed Apps</div>
+        <hr>
+        <ul class="mdc-layout-grid__inner mdc-image-list--with-text-protection my-image-list">
+            <li class="mdc-image-list__item mdc-layout-grid__cell--span-4">
+                <div class="mdc-image-list__image-aspect-container" onclick="window.location.href ='recipe.html'">
+                    <img class="mdc-image-list__image" src="images/craveitsnipped.png">
+                </div>
+                <div class="mdc-image-list__supporting">
+                    <span class="mdc-image-list__label">Crave it</span>
+                </div>
+            </li>
+
+            <li class="mdc-image-list__item mdc-layout-grid__cell--span-4">
+                <div class="mdc-image-list__image-aspect-container" onclick="window.location.href ='recipe.html'">
+                    <img class="mdc-image-list__image" src="images/pwgensnipped.png">
+                </div>
+                <div class="mdc-image-list__supporting">
+                    <span class="mdc-image-list__label">Password Generator</span>
+                </div>
+            </li>
+
+            <li class="mdc-image-list__item mdc-layout-grid__cell--span-4">
+                <div class="mdc-image-list__image-aspect-container" onclick="window.location.href ='recipe.html'">
+                    <img class="mdc-image-list__image" src="images/quizsitesnipped.png">
+                </div>
+                <div class="mdc-image-list__supporting">
+                    <span class="mdc-image-list__label">Quiz Site</span>
+                </div>
+            </li>
+
+
+        </ul>
+    </main>
+</body>
+</html>
