@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+
+    <style>
+        body{
+            background-image: url(images/checkerboard-cross.png)
+        }
+    </style>
+
+    <!-- Local styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Material Design CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    
+    <!-- Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Alice|Quicksand|Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+        <div class="mdc-top-app-bar-row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button tooltip" onclick="window.location.href='index.html'">
+                        home
+                    <span class="tooltiptext">Return to Home</span>
+                </button>
+                <span class="mdc-top-app-bar__title">About me</span>
+               
+
+            </section>
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button tooltip" aria-label="Connect with me" onclick="window.location.href='contact.html'">
+                    info
+                    <span class="tooltiptext-left">Connect with me</span>
+                </button>
+
+                <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button tooltip" aria-label="View Portfolio" onclick="window.location.href='portfolio.html'">
+                    dashboard
+                    <span class="tooltiptext-left">View Portfolio</span>
+                </button>
+            </section>
+
+        </div>
+
+    </header>
+
+    <main class="mdc-elevation--z6 mdc-layout-grid mdc-top-app-bar--fixed-adjust">
+        <div class="mdc-elevation--10" id="myTitle">Bio</div>
+        <hr>
+        <div class="mdc-layout-grid__inner">
+            <!-- -phone mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop -->
+            <div class="mdc-layout-grid__cell--span-10">
+                <!-- <div class="mdc-layout-grid_cell--span-4"> -->
+                    <img src="images/Portfolio-photo.jpg" id="myPhoto">
+                <!-- </div> -->
+                <p>My name is Brigham Mueller and this website was made to tell a little bit about myself and show what
+                    I can do. I am an aspiring web designer, gamer, home chef, and dad joke extraordinaire.
+                    Coding and designing have always been something that have peaked my interest as a way to explore my
+                    creative side while still being a relevant way to make a living. Outside of my time learning and
+                    growing my coding experience you can find me, as mentioned, two places: on the computer gaming or in
+                    the kitchen.
+                    Gaming for me has always been a way to be competitive and enjoy myself at the same time. It was also
+                    how I connected with a lot of my siblings and gave us a means to spend time together.
+                    My time in the kitchen is often spent trying new recipes or perfecting ones I already know. I get a
+                    lot of satisfactin out of the enjoyent that other people get when they eat what I have made.
+                </p>
+                <p>Aside from my 3 main interests I love to play soccer, travel, and hang out with my family. Family is
+                    super important to me and I try to spend as much time with them as I can. We love to play board
+                    games, word games, video games, or pretty much anything where we can have a good time together.
+                    I have traveled many places around the world including: China, Ukraine, Costa Rica, Belize, Mexico,
+                    and Canada. My family is really into soccer and I personally played for about 13 years growing up on
+                    very competitive teams.
+                </p>
+                <p>Beyond my personal interests, I am a very logical person who likes to think through pretty much
+                    everything I do. I believe in being a kind person to everyone around me and try to help out as much
+                    as I can.</p>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
