@@ -8,6 +8,7 @@
     text-align: center;
     /* margin-left: 10px; */
     margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 #myPhoto {
@@ -40,9 +41,65 @@ ul {
     height: 32px;
     margin: 15px 0px;
     padding: 15px 0px;
+    margin-bottom: 75px;
 }
 
-.social-text {
-    padding-bottom: 7.5px;
+/* .social-text {
+    padding-top: 7.5px;
+} */
+
+
+.mdc-top-app-bar--fixed-adjust {
+    margin: 0 8px;
+}
+
+/*-- Tooltip Sytle --*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip Text */
+.tooltip .tooltiptext{
+    visibility: hidden;
+    background-color: #95a5a6;
+    color: #2c3e50;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px 2px;
+    border-radius: 6px;
+    font-family: 'Quicksand', sans-serif;
+
+    /* Position-Bottom*/
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 100%;
+}
+
+.tooltip .tooltiptext-left {
+    visibility: hidden;
+    background-color: #95a5a6;
+    color: #2c3e50;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px 2px;
+    border-radius: 6px;
+    font-family: 'Quicksand', sans-serif;
+
+    /* Position-Left*/
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    right: 105%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip:hover .tooltiptext-left {
+    visibility: visible;
 }
 

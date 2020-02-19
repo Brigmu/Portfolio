@@ -27,21 +27,25 @@
     <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
         <div class="mdc-top-app-bar-row">
             <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-                <!-- <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button tooltip"> -->
-                    <!-- <menu class = "material-icons mdc-top-app-bar__navigation-icon mdc-icon-button" type="toolbar">
-                        menu
-                    </menu> -->
-                    <!-- <span class="tooltiptext">Return to Home</span> -->
-                <!-- </button> -->
+                <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button tooltip" onclick="window.location.href='index.html'">
+                        home
+                    <span class="tooltiptext">Return to Home</span>
+                </button>
                 <span class="mdc-top-app-bar__title">Connect with me</span>
                
 
             </section>
-            <!-- <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
-                <button class='material-icons mdc-top-app-bar__navigation-icon mdc-icon-button tooltip'>
-                    home
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button tooltip" aria-label="Connect with me" onclick="window.location.href='contact.html'">
+                    info
+                    <span class="tooltiptext-left">Connect with me</span>
                 </button>
-            </section> -->
+
+                <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button tooltip" aria-label="View Portfolio" onclick="window.location.href='portfolio.html'">
+                    dashboard
+                    <span class="tooltiptext-left">View Portfolio</span>
+                </button>
+            </section>
 
         </div>
 
@@ -52,16 +56,19 @@
         <hr>
         <div class="mdc-layout-grid-inner">
             <div class="mdc-layout-grid_cell-span-10 social">
+                <h3>Personal Info</h3>
                 <p>Email: brigmu@gmail.com</p>
                 <p>Phone: 206-734-8405</p>
+                <a href = "https://docs.google.com/document/d/1opgLrcQpAW3ns2WTNB-I0QWtOADd9Hpc9dRN0SPXduI/edit?usp=sharing">Resume</a>
             </div>
             <div class="mdc-layout-grid_cell-span-10 social">
-            <img src="images/GitHub-Mark-32px.png" id='Github'>
-            <p class="social-text">Github: brigmu</p>
+                <h3>Socials</h3>
+                <img src="images/GitHub-Mark-32px.png" id='Github'>
+                <a href="https://github.com/Brigmu" class="social-text">Github: brigmu</a>
             </div>
             <div class="mdc-layout-grid_cell-span-10 social">
-            <img src="images/LI-Logo.png" id='linkedin'>
-            <p class="social-text">LinkedIn: Brigham Mueller</p>
+                <img src="images/LI-Logo.png" id='linkedin'>
+                <a href="https://www.linkedin.com/in/brigham-mueller-709817197/" class="social-text">LinkedIn: Brigham Mueller</a>
             </div>
         </div>
     </main>
