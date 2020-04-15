@@ -1,12 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #myTitle {
     font-size: 24px;
     font-size: Bold;
-    /* background-color: blue; */
-    /* color: white; */
-    /* width: 15%;
-    min-width: 100px; */
     text-align: center;
-    /* margin-left: 10px; */
     margin-bottom: 10px;
     margin-top: 15px;
 }
@@ -21,8 +25,18 @@
     float: left;
 }
 
+a{
+    margin-left: 20px;
+    color: white;
+}
+
 ul {
     padding-left: 0px;
+}
+
+li:hover {
+    transform: scale(1.15);
+    z-index: 10;
 }
 
 #Github {
